@@ -14,7 +14,7 @@ public class CourseController {
     public List<Cousre> retrieveAllcourses(){
         return Arrays.asList(
                 new Cousre(1,"Tai Ngonheng","pate"),
-                new Cousre(2,"laughing","Lup")
+                new Cousre(2,"Nhep PhengLeang","Lup")
         );
     }
     public static void main(String[] args) {
