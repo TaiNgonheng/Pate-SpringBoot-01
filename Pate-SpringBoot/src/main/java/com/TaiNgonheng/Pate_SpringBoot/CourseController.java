@@ -13,7 +13,7 @@ public class CourseController {
     @RequestMapping("/courses")
     public List<Cousre> retrieveAllcourses(){
         return Arrays.asList(
-                new Cousre(1,"Learn","pate"),
+                new Cousre(1,"Tai Ngonheng","pate"),
                 new Cousre(2,"laughing","Lup")
         );
     }
