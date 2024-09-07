@@ -22,7 +22,9 @@ public class CourseController {
                 new Cousre(8, "This is the rest api", "greargeajjjjjjjj"),
                 new Cousre(90, "rgaer", "33"),
                 new Cousre(6, "greagrea", "hiuoujon"),
-                new Cousre(9, "gr", "grea")
+                new Cousre(9, "gr", "grea"),
+                new Cousre(10, "gr", "gragr"),
+                new Cousre(1, "ggragr", "geag")
         );
     }
 }
