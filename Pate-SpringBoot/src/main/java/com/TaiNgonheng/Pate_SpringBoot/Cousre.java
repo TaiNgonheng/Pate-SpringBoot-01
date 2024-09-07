@@ -5,7 +5,7 @@ public class Cousre {
     private String name;
     private String author;
 
-    public Cousre(long id, String name, String author) {
+    public Cousre(int id, String name, String author) {
         this.id = id;
         this.name = name;
         this.author = author;
@@ -19,16 +19,16 @@ public class Cousre {
         return name;
     }
 
-    public String getAuthor() {
+    public String getType() {
         return author;
     }
 
     @Override
     public String toString() {
         return "Cousre{" +
-                "id=" + id +
+                "Id=" + id +
                 ", name='" + name + '\'' +
-                ", author='" + author + '\'' +
+                ", type='" + author + '\'' +
                 '}';
     }
 }
